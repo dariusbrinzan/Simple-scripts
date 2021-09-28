@@ -1,0 +1,1 @@
+echo "$1 $2 $3" >> "/home/student/team2-scripts-output/weather.info"; if grep "$1" "/home/student/tema2-scripts-output/live.info";then sed -i "s/$1.*/$1 $2 $3/g" "/home/student/tema2-scripts-output/live.info";else echo "$1 $2 $3" >> "/home/student/tema2-scripts-output/live.info"; fi
